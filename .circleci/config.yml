@@ -1,0 +1,10 @@
+class Test:
+   a=20
+   def __init__(self):
+      self.a=50
+      self.b=60
+t1= Test()
+del t1.a
+print(t1.a,t1.b)
+
+    
